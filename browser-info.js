@@ -111,3 +111,6 @@ function logBrowserInfo() {
     console.log(`%c[Browser] Safari Mobile: ${isSafariMobile}`, 'color: #73AFCE;');
 }
 
+window.getBrowserData = getBrowserData;
+window.isMobileDevice = isMobileDevice;
+window.logBrowserInfo = logBrowserInfo;
